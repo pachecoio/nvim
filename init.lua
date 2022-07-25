@@ -1,0 +1,2 @@
+require("pachecoio")
+print("something")
