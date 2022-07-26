@@ -23,5 +23,5 @@ map("<Leader>ps", "<cmd>:lua require('telescope.builtin').grep_string({search = 
 map("<Leader>gstatus", ":!git status<CR>")
 map("<Leader>gbranch", ":!git branch<CR>")
 map("<Leader>gnbranch", ":!git checkout -b ")
-map("<Leader>gadd", ":!git add ")
 map("<Leader>gcmt", ":!git commit -m ")
+map("<Leader>gpush", ":!git push ")
