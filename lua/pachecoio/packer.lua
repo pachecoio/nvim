@@ -7,14 +7,17 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  --Themes
   use 'folke/tokyonight.nvim'
+  use 'doums/darcula'
+
+  --completions
   use 'nvim-lua/popup.nvim'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
   use 'neovim/nvim-lspconfig'
   use 'nvim-lua/completion-nvim'
 
-  --completions
   use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
   use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
@@ -23,4 +26,6 @@ return require('packer').startup(function()
   -- Tabnine
   use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
 
+  -- Tests
+  use 'vim-test/vim-test'
 end)
