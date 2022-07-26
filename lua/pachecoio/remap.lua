@@ -25,3 +25,8 @@ map("<Leader>gbranch", ":!git branch<CR>")
 map("<Leader>gnbranch", ":!git checkout -b ")
 map("<Leader>gcmt", ":!git commit -m ")
 map("<Leader>gpush", ":!git push ")
+
+-- Testing
+map("<Leader>t", ":TestNearest<CR>")
+map("<Leader>T", ":TestFile<CR>")
+
