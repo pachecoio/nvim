@@ -9,9 +9,10 @@ Configuration for neovim using lua, including:
 
 # Requirements
 
-1. Neovim
-2. rust-analyzer
-3. pyright
+1. [Neovim](https://neovim.io/)
+2. [Packer](https://github.com/wbthomason/packer.nvim)
+2. [rust-analyzer](https://rust-analyzer.github.io/)
+3. [pyright](https://github.com/microsoft/pyright)
 
 # How to use
 
