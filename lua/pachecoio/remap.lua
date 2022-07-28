@@ -30,3 +30,9 @@ map("<Leader>gpush", ":!git push ")
 map("<Leader>t", ":TestNearest<CR>")
 map("<Leader>T", ":TestFile<CR>")
 
+
+-- Window resize
+
+map("<C-o>", ":vertical resize +10<CR>")
+map("<C-u>", ":vertical resize -10<CR>")
+
